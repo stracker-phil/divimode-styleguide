@@ -34,4 +34,4 @@ fractal.web.set('static.path', path.join(__dirname, 'assets'));
 /*
  * Output folder for the fractal build command (i.e. the static HTML page).
  */
-fractal.web.set('builder.dest', __dirname + '/public');
+fractal.web.set('builder.dest', __dirname + '/docs');
