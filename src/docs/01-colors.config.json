@@ -1,0 +1,62 @@
+{
+  "title": "Color Scheme",
+  "context": {
+    "brandColors": [
+      {
+        "name": "Primary Accent",
+        "rgb": "#6200EA"
+      },
+      {
+        "name": "Logo Gradient 1",
+        "rgb": "#D500F9"
+      },
+      {
+        "name": "Logo Gradient 2",
+        "rgb": "#9C00F2"
+      },
+      {
+        "name": "Logo Gradient 3",
+        "rgb": "#6200EA"
+      }
+    ],
+    "textColors": [
+      {
+        "name": "Title Color",
+        "rgb": "#333333"
+      },
+      {
+        "name": "Text Color",
+        "rgb": "#666666"
+      },
+      {
+        "name": "Link Color",
+        "rgb": "#3776FF"
+      },
+      {
+        "name": "Link Hover",
+        "rgb": "#B8147E"
+      }
+    ],
+    "formColors": [
+      {
+        "name": "Button",
+        "rgb": "#33AAFF"
+      },{
+        "name": "Button active",
+        "rgb": "#3776ff"
+      },
+      {
+        "name": "Input Background",
+        "rgb": "#EFF2F3"
+      },
+      {
+        "name": "Input Text",
+        "rgb": "#20292F"
+      },
+      {
+        "name": "Input Error",
+        "rgb": "#FF4C00"
+      }
+    ]
+  }
+}

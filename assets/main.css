@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+@font-face {
+	font-family: "AcherusGrotesque";
+	font-style: italic;
+	font-weight: normal;
+	font-stretch: normal;
+	src: url("/font/acherus/italic_normal_normal.woff2") format("woff2"), url("/font/acherus/italic_normal_normal.woff") format("woff");
+	font-display: swap
+}
+
+@font-face {
+	font-family: "AcherusGrotesque";
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: normal;
+	src: url("/font/acherus/italic_normal_bold.woff2") format("woff2"), url("/font/acherus/italic_normal_bold.woff") format("woff");
+	font-display: swap
+}
+
+@font-face {
+	font-family: "AcherusGrotesque";
+	font-style: normal;
+	font-weight: bold;
+	font-stretch: normal;
+	src: url("/font/acherus/normal_normal_bold.woff2") format("woff2"), url("/font/acherus/normal_normal_bold.woff") format("woff");
+	font-display: swap
+}
+
+@font-face {
+	font-family: "AcherusGrotesque";
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	src: url("/font/acherus/normal_normal_normal.woff2") format("woff2"), url("/font/acherus/normal_normal_normal.woff") format("woff");
+	font-display: swap
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.color-swatches {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.color-swatch {
+	flex: 1;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+
+.color-swatch:hover {
+	background-color: #1b1b1b;
+	color: #e5e5e5;
+}
+
+.color-swatch .-swatch {
+	background-color: var(--color);
+	height: 90px;
+	min-width: 60px;
+	border-radius: 5px;
+	color: inherit;
+}
+
+.color-swatch .-name {
+	font-size: 14px;
+	padding: 0 5px 10px;
+	color: inherit;
+}
+
+.color-swatch .-rgb {
+	font-size: 18px;
+}
+
+/* Typography preview */
+
+#page {
+	padding: 20px;
+	border-left: 2px solid #1b1b1b;
+}
+
+.preview #page {
+	border: 0;
+}
+
+#page {
+	font-family: 'AcherusGrotesque', 'Open Sans', 'Segoe UI', 'Helvetica Neue', Arial, Lucida, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5;
+	color: #666;
+	-webkit-font-smoothing: antialiased;
+}
+
+#page h1, #page h2, #page h3, #page h4, #page h5, #page h6 {
+	font-family: 'Raleway', 'Open Sans', 'Segoe UI', 'Helvetica Neue', Arial, Lucida, sans-serif;
+	letter-spacing: -1px;
+	line-height: 1.15;
+	padding: 0 0 10px;
+	color: #333;
+}
+
+#page h1 {
+	font-size: 48px;
+	font-weight: 600;
+	margin: 0 0 0.75em;
+}
+
+#page h2 {
+	font-size: 41px;
+	font-weight: 600;
+	margin: 2em 0 0.75em;
+}
+
+#page h3 {
+	font-size: 35px;
+	font-weight: 500;
+	margin: 0.75em 0 0.25em;
+}
+
+#page h4 {
+	font-size: 28px;
+	font-weight: 500;
+	margin: 0.75em 0 0.25em;
+}
+
+#page p {
+	margin: 10px 0;
+}
+
+
+/* Buttons */
+
+#page button {
+	border-radius: 10px;
+	background-color: #33AAFF;
+	color: #FFF;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: 1;
+	border: 0;
+	padding: 15px 25px;
+	cursor: pointer;
+	transition: all 0.2s;
+	height: 44px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+#page button:hover {
+	background: #3776ff;
+	animation: none;
+	transform: none;
+	box-shadow: none;
+}
