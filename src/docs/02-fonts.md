@@ -23,6 +23,9 @@ We use sans serif fonts for all texts header and body copy, with large font-size
 * Default line height: 1.5em (or 27px)
 * Used for all elements that are no H1-H4
 
+Font sample:
+<img src="/acherus-font-sample.png" alt="Font Sample: Acherus Grotesque" style="max-width:800px;border:1px solid #ccc"/>
+
 ## Capitalization & Styles
 
 * Headlines and titles use the [APA capitalization](https://capitalizemytitle.com/style/APA/)
@@ -33,8 +36,9 @@ We use sans serif fonts for all texts header and body copy, with large font-size
 
 ## Sample
 
-<div id="page">
+<div id="page-container">
 <h1>This Is the Page Title</h1>
+<p>Acherus Grotesque AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz 0123456789.!?</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacus lorem, lacinia in venenatis quis, vehicula id purus. Maecenas et metus semper diam rutrum feugiat. Etiam tincidunt felis eget sollicitudin interdum. Phasellus id turpis tristique, tincidunt urna at, porttitor eros. Fusce feugiat sem sed condimentum elementum.</p>
 <h2>Duis Volutpat Pellentesque Est a Imperdiet</h2>
 <h3>Aliquam Imperdiet, Leo Nec Sagittis Bibendum</h3>
