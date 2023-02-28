@@ -24,7 +24,7 @@ We use sans serif fonts for all texts header and body copy, with large font-size
 * Used for all elements that are no H1-H4
 
 Font sample:
-<img src="./acherus-font-sample.png" alt="Font Sample: Acherus Grotesque" style="max-width:800px;border:1px solid #ccc"/>
+<img src="../acherus-font-sample.png" alt="Font Sample: Acherus Grotesque" style="max-width:800px;border:1px solid #ccc"/>
 
 ## Capitalization & Styles
 
