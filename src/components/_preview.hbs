@@ -7,6 +7,10 @@
 </head>
 <body class="preview">
 
+{{#if (and _target.context _target.context.description)}}
+	{{{description _target.context.description}}}
+{{/if}}
+
 <div id="page">
 	{{{ yield }}}
 </div>

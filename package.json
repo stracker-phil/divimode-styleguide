@@ -9,5 +9,8 @@
   "scripts": {
     "fractal:start": "fractal start --sync",
     "fractal:build": "fractal build"
+  },
+  "devDependencies": {
+    "handlebars-helpers": "^0.10.0"
   }
 }

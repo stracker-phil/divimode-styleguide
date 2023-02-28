@@ -1,0 +1,50 @@
+{
+  "context": {
+    "tag": "div",
+    "attrs": "class=instructions",
+    "label": "Select a variant from the left sidebar",
+    "description": false
+  },
+  "variants": [
+    {
+      "name": "H1",
+      "context": {
+        "tag": "h1",
+        "attrs": false,
+        "label": "This Is the Page Title"
+      }
+    },
+    {
+      "name": "H2",
+      "context": {
+        "tag": "h2",
+        "attrs": false,
+        "label": "Duis Volutpat Pellentesque Est a Imperdiet"
+      }
+    },
+    {
+      "name": "H3",
+      "context": {
+        "tag": "h3",
+        "attrs": false,
+        "label": "Aliquam Imperdiet, Leo Nec Sagittis Bibendum"
+      }
+    },
+    {
+      "name": "H4",
+      "context": {
+        "tag": "h4",
+        "attrs": false,
+        "label": "Praesent Condimentum Velit a Lacus"
+      }
+    },
+    {
+      "name": "Text",
+      "context": {
+        "tag": "p",
+        "attrs": false,
+        "label": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacus lorem, lacinia in venenatis quis, vehicula id purus. Maecenas et metus semper diam rutrum feugiat. Etiam tincidunt felis eget sollicitudin interdum. Phasellus id turpis tristique, tincidunt urna at, porttitor eros. Fusce feugiat sem sed condimentum elementum."
+      }
+    }
+  ]
+}

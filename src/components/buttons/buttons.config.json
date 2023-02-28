@@ -1,0 +1,54 @@
+{
+  "title": "Button",
+  "context": {
+    "class": "primary",
+    "label": "Add to cart",
+    "description": {
+      "Height": "54px",
+      "Border radius": "10px",
+      "Font size": "18px",
+      "Box Shadow": "0 20px 30px 0 #0003",
+      "On Hover": {
+        "Grow": "scale(1.08)",
+        "Animation": "Shake",
+        "Box Shadow": "0 2px 25px 0 #1b1b1b40"
+      }
+    }
+  },
+  "variants": [
+    {
+      "name": "Call To Action",
+      "context": {
+        "class": "cta",
+        "label": "Buy now!",
+        "description": {
+          "Height": "34px",
+          "Border radius": "10px",
+          "Font size": "14px",
+          "On Hover": {
+            "Grow": "scale(1.08)",
+            "Animation": "Shake",
+            "Box Shadow": "0 2px 25px 0 #1b1b1b40"
+          }
+        }
+      }
+    },
+    {
+      "name": "Form Button",
+      "context": {
+        "class": "",
+        "label": "Submit form",
+        "description": {
+          "Height": "44px",
+          "Border radius": "10px",
+          "Font size": "16px",
+          "Bg Color": "#33AAFF",
+          "On Hover": {
+            "Bg Color": "#3776ff",
+            "Color": "#fff"
+          }
+        }
+      }
+    }
+  ]
+}

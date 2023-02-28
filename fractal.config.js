@@ -9,6 +9,7 @@ const path = require('path');
  * Require the Fractal module
  */
 const fractal = module.exports = require('@frctl/fractal').create();
+const hbsHelpers = require('handlebars-helpers')();
 
 // Create a new instance with custom config options
 const theme = require('./theme.js');
@@ -20,6 +21,13 @@ fractal.web.theme(theme.main);
 const helpers = require('./helpers.js');
 fractal.components.engine(helpers.hbs);
 fractal.docs.engine(helpers.hbs);
+
+const instance = fractal.components.engine();
+
+instance.handlebars.registerHelper(hbsHelpers);
+instance.handlebars.registerHelper('json', function (obj) {
+	return JSON.stringify(obj, null, 2);
+});
 
 /*
  * Give your project a title.

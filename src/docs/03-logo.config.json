@@ -1,0 +1,202 @@
+{
+  "title": "Company Logos",
+  "context": {
+    "logos": [
+      {
+        "title": "Square | Icon and text",
+        "preview": "/logos/big-icon-white-500.jpg",
+        "isLight": false,
+        "files": [
+          {
+            "label": "JPG, 500w",
+            "url": "/logos/big-icon-white-500.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Square | Icon only",
+        "preview": "/logos/big-icon-white-icon.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG",
+            "url": "/logos/big-icon-white-icon.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/big-icon-white-icon.svg"
+          }
+        ]
+      },
+      {
+        "title": "Color | Website favicon",
+        "preview": "/logos/divimode-favicon.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG",
+            "url": "/logos/divimode-favicon.png"
+          }
+        ]
+      },
+      {
+        "title": "Color | Icon only",
+        "preview": "/logos/icon-color-1024.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/icon-color-1024.png"
+          },
+          {
+            "label": "PNG, 120w",
+            "url": "/logos/icon-color-120.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-color.svg"
+          }
+        ]
+      },
+      {
+        "title": "Color | Icon only | Padding",
+        "preview": "/logos/icon-color-padding-1024.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/icon-color-padding-1024.png"
+          },
+          {
+            "label": "PNG, 150w",
+            "url": "/logos/icon-color-padding-150.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-color-padding.svg"
+          }
+        ]
+      },
+      {
+        "title": "Dark | Icon only",
+        "preview": "/logos/icon-dark-1024.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/icon-dark-1024.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-dark.svg"
+          }
+        ]
+      },
+      {
+        "title": "Light | Icon only",
+        "preview": "/logos/icon-light-1024.png",
+        "isLight": true,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/icon-light-1024.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-light.svg"
+          }
+        ]
+      },
+      {
+        "title": "Color | Icon and text",
+        "preview": "/logos/icon-text-color-1024.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/icon-text-color-1024.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-text-color.svg"
+          }
+        ]
+      },
+      {
+        "title": "Dark | Icon and text",
+        "preview": "/logos/icon-text-dark-1024.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/icon-text-dark-1024.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-text-dark.svg"
+          }
+        ]
+      },
+      {
+        "title": "Color | Icon and text | Tall",
+        "preview": "/logos/icon-text-high-color-1024.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/icon-text-high-color-1024.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-text-high-color.svg"
+          }
+        ]
+      },
+      {
+        "title": "Light | Icon and text",
+        "preview": "/logos/icon-text-light.png",
+        "isLight": true,
+        "files": [
+          {
+            "label": "PNG",
+            "url": "/logos/icon-text-light.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/icon-text-light.svg"
+          }
+        ]
+      },
+      {
+        "title": "Dark | Text-only",
+        "preview": "/logos/text-dark-1024.png",
+        "isLight": false,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/text-dark-1024.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/text-dark.svg"
+          }
+        ]
+      },
+      {
+        "title": "Light | Text-only",
+        "preview": "/logos/text-light-1024.png",
+        "isLight": true,
+        "files": [
+          {
+            "label": "PNG, 1024w",
+            "url": "/logos/text-light-1024.png"
+          },
+          {
+            "label": "SVG",
+            "url": "/logos/text-light.svg"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,61 +1,122 @@
 {
   "title": "Color Scheme",
   "context": {
-    "brandColors": [
+    "colors": [
       {
-        "name": "Primary Accent",
-        "rgb": "#6200EA"
+        "title": "Brand Colors",
+        "swatches": [
+          {
+            "name": "Primary Accent",
+            "rgb": "#6200EA"
+          },
+          {
+            "name": "Logo Gradient 1",
+            "rgb": "#D500F9"
+          },
+          {
+            "name": "Logo Gradient 2",
+            "rgb": "#9C00F2"
+          },
+          {
+            "name": "Logo Gradient 3",
+            "rgb": "#6200EA"
+          }
+        ]
       },
       {
-        "name": "Logo Gradient 1",
-        "rgb": "#D500F9"
+        "title": "Text Colors",
+        "swatches": [
+          {
+            "name": "Title Color",
+            "rgb": "#333333"
+          },
+          {
+            "name": "Text Color",
+            "rgb": "#666666"
+          },
+          {
+            "name": "Link Color",
+            "rgb": "#3776FF"
+          },
+          {
+            "name": "Link Hover",
+            "rgb": "#B8147E"
+          }
+        ]
       },
       {
-        "name": "Logo Gradient 2",
-        "rgb": "#9C00F2"
+        "title": "Form Colors",
+        "swatches": [
+          {
+            "name": "Input Background",
+            "rgb": "#EFF2F3"
+          },
+          {
+            "name": "Input Text",
+            "rgb": "#20292F"
+          },
+          {
+            "name": "Input Error",
+            "rgb": "#FF4C00"
+          }
+        ]
       },
       {
-        "name": "Logo Gradient 3",
-        "rgb": "#6200EA"
-      }
-    ],
-    "textColors": [
-      {
-        "name": "Title Color",
-        "rgb": "#333333"
+        "title": "Form Buttons",
+        "swatches": [
+          {
+            "name": "Background",
+            "rgb": "#33AAFF"
+          },
+          {
+            "name": "Background (hover)",
+            "rgb": "#3776ff"
+          },
+          {
+            "name": "Text",
+            "rgb": "#fff"
+          }
+        ]
       },
       {
-        "name": "Text Color",
-        "rgb": "#666666"
+        "title": "Page Buttons",
+        "swatches": [
+          {
+            "name": "Background",
+            "rgba": "#263547e6"
+          },
+          {
+            "name": "Background (hover)",
+            "rgb": "#263547"
+          },
+          {
+            "name": "Text",
+            "rgb": "#f8f8f8"
+          },
+          {
+            "name": "Text (hover)",
+            "rgb": "#fffffe"
+          }
+        ]
       },
       {
-        "name": "Link Color",
-        "rgb": "#3776FF"
-      },
-      {
-        "name": "Link Hover",
-        "rgb": "#B8147E"
-      }
-    ],
-    "formColors": [
-      {
-        "name": "Button",
-        "rgb": "#33AAFF"
-      },{
-        "name": "Button active",
-        "rgb": "#3776ff"
-      },
-      {
-        "name": "Input Background",
-        "rgb": "#EFF2F3"
-      },
-      {
-        "name": "Input Text",
-        "rgb": "#20292F"
-      },
-      {
-        "name": "Input Error",
-        "rgb": "#FF4C00"
+        "title": "CTA Button",
+        "swatches": [
+          {
+            "name": "Background",
+            "rgb": "#d9418d",
+            "image": "linear-gradient(180deg, #fff2 0%, #0002 100%)"
+          },
+          {
+            "name": "Background (hover)",
+            "rgb": "#bf397c",
+            "image": "linear-gradient(180deg, #fff2 0%, #0002 100%)"
+          },
+          {
+            "name": "Text",
+            "rgb": "#ffffff"
+          }
+        ]
       }
     ]
   }
