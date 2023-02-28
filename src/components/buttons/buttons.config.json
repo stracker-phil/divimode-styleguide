@@ -49,6 +49,44 @@
           }
         }
       }
+    },
+    {
+      "name": "Pill Button",
+      "context": {
+        "class": "pill",
+        "label": "VIP Community",
+        "description": {
+          "Height": "44px",
+          "Border radius": "60px",
+          "Font size": "18px",
+          "Bg Color": "#6C2EB9",
+          "Color": "#F8F8F8",
+          "Box Shadow": "0 2px 25px 0 #1b1b1b40",
+          "On Hover": {
+            "Grow": "scale(1.08)",
+            "Animation": "Shake"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pill Button, Light",
+      "context": {
+        "class": "pill secondary",
+        "label": "Knowledge Base",
+        "description": {
+          "Height": "44px",
+          "Border radius": "60px",
+          "Font size": "18px",
+          "Bg Color": "#F2F4F5",
+          "Color": "#6C2EB9",
+          "On Hover": {
+            "Grow": "scale(1.08)",
+            "Animation": "Shake",
+            "Box Shadow": "0 2px 25px 0 #1b1b1b40"
+          }
+        }
+      }
     }
   ]
 }
